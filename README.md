@@ -44,7 +44,7 @@ django-razorpay/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/django-razorpay.git
+git clone https://github.com/Sameeeer/razorpay.git
 cd django-razorpay
 ```
 ### 2. Create Virtual Environment & Install Dependencies
