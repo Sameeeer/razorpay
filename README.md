@@ -22,8 +22,8 @@ django-razorpay/
 │── payments/ # Django app
 │ ├── migrations/
 │ ├── templates/
-│ │ └── payment.html # Bootstrap payment page
-│ ├── models.py # Payment model
+│ │ └── payment.html 
+│ ├── models.py # Payment mode
 │ ├── views.py # Razorpay integration logic
 │ ├── urls.py # Routes for payment
 │ └── admin.py # Register Payment model
@@ -33,8 +33,8 @@ django-razorpay/
 │ └── urls.py # Project routes
 │
 ├── db.sqlite3 # SQLite database (default)
-├── manage.py # Django CLI
-└── README.md # Documentation
+├── manage.py
+└── README.md 
 ```
 
 
