@@ -17,6 +17,7 @@ It allows users to **enter a custom amount** and make payments securely via Razo
 ---
 
 ## 📂 Project Structure
+```
 django-razorpay/
 │── payments/ # Django app
 │ ├── migrations/
@@ -34,7 +35,7 @@ django-razorpay/
 ├── db.sqlite3 # SQLite database (default)
 ├── manage.py # Django CLI
 └── README.md # Documentation
-
+```
 
 
 ---
