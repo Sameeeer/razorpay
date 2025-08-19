@@ -28,7 +28,7 @@ razorpay/
 │ ├── urls.py # Routes for payment
 │ └── admin.py # Register Payment model
 │
-├── django_razorpay/ # Main project folder
+├── myproject/ # Main project folder
 │ ├── settings.py # Django settings
 │ └── urls.py # Project routes
 │
