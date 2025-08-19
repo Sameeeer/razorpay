@@ -47,7 +47,7 @@ Edit
 ```bash
 git clone https://github.com/your-username/django-razorpay.git
 cd django-razorpay
-2. Create Virtual Environment & Install Dependencies
+### 2. Create Virtual Environment & Install Dependencies
 bash
 Copy
 Edit
@@ -57,7 +57,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 (Create requirements.txt with at least Django and razorpay)
 
-3. Configure Razorpay Keys
+#### 3. Configure Razorpay Keys
 Open settings.py and add your Razorpay API Keys:
 
 python
@@ -67,18 +67,18 @@ RAZORPAY_KEY_ID = "your_key_id"
 RAZORPAY_KEY_SECRET = "your_key_secret"
 You can get these keys from the Razorpay Dashboard.
 
-4. Run Migrations
+### 4. Run Migrations
 bash
 Copy
 Edit
 python manage.py makemigrations
 python manage.py migrate
-5. Create Superuser (optional, for admin panel)
+### 5. Create Superuser (optional, for admin panel)
 bash
 Copy
 Edit
 python manage.py createsuperuser
-6. Run Development Server
+### 6. Run Development Server
 bash
 Copy
 Edit
