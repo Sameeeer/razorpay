@@ -18,7 +18,7 @@ It allows users to **enter a custom amount** and make payments securely via Razo
 
 ## 📂 Project Structure
 ```
-django-razorpay/
+razorpay/
 │── payments/ # Django app
 │ ├── migrations/
 │ ├── templates/
@@ -45,7 +45,7 @@ django-razorpay/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Sameeeer/razorpay.git
-cd django-razorpay
+cd razorpay
 ```
 ### 2. Create Virtual Environment & Install Dependencies
 ```bash
